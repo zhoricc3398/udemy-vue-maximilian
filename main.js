@@ -14,7 +14,7 @@ new Vue({
       this.y = event.clientY;
     },
     alertMe: function() {
-        alert('Alert!')
+      alert("Alert!");
     }
   }
 });
