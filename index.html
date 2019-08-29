@@ -10,8 +10,9 @@
   </head>
   <body>
     <div id="app">
-      <button @click="changeLink">Click to Change Link</button>
-      <a :href="link">Link</a>
+      <div class="demo" @click="attachRed = !attachRed" :class="{red: attachRed}"></div>
+      <div class="demo" :class="{red: attachRed}"></div>
+      <div class="demo"></div>
     </div>
 
     <script src="main.js"></script>
