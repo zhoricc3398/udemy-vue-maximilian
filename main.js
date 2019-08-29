@@ -2,7 +2,7 @@ new Vue({
   el: "#app",
   data: {
     color: "gray",
-    width: 50
+    width: 100
   },
   computed: {
     myStyle: function() {
